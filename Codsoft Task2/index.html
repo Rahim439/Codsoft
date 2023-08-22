@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="container" id="home">
+            <div class="logo"></div>
+            <div class="right-div">
+                <nav>
+                    <ul>
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#Projects">Projects</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="contact-div">
+                <button class="contact-button" target="_blank" onclick="window.open('https://w3docs.com', '_blank')">
+                    Contact Me
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section" id="home">
+        <div class="intro same-align">
+            <p class="font">hello,I'm</p>
+            <h1 class="font">Rahim Chaudhary</h1>
+            <h2 class="font">FrontEnd Developer</h2>
+            <div>
+                <button class="contact-button cv">
+                    <a href="Rahim Frontend Intern.pdf" download> Download CV</a>
+                </button>
+            </div>
+            <div class="social-icons">
+                <a><i class="fa-brands fa-facebook" style="color: #1877f2"></i></a>
+                <a><i class="fa-brands fa-google-plus" style="color: #db4437"></i></a>
+                <a><i class="fa-brands fa-linkedin" style="color: #0a66c2"></i></a>
+                <a><i class="fa-brands fa-github" style="color: #181717"></i></a>
+            </div>
+        </div>
+        <div class="man same-align"></div>
+    </section>
+    <section class="intro-section" id="about">
+        <div class="profile-pic"></div>
+        <div class="intro-div">
+            <h4 class="font">Rahim Chaudhary</h4>
+            <h6 class="font">Front-End Developer</h6>
+            <p>
+                I'm a 5th-semester BS Computer Science student at UCP with a keen
+                interest in front-end web development. Skilled in HTML, CSS, and
+                JavaScript, I enjoy creating web applications. I've completed projects
+                like login pages, landing pages, and a questionnaire app.<br /><br />
+                I believe in practical learning and staying updated with industry
+                trends. I actively explore new frameworks and participate in coding
+                communities. Collaboration is essential to me, and I value effective
+                communication.
+                <br />#WebDeveloper #FrontEndDev #HTMLCSSJS
+            </p>
+        </div>
+    </section>
+
+    <section class="services" id="Services">
+        <h1 class="font">Services</h1>
+        <div class="services-divs">
+            <div class="service-div">
+                <div class="icon-div"><img class="image" src="crown.png" /></div>
+                <p class="font font-of-para">UI/UX Design</p>
+            </div>
+
+            <div class="service-div">
+                <div class="icon-div">
+                    <img class="image" src="responsive-design.png" />
+                </div>
+                <p class="font font-of-para">Responsive Web Design</p>
+            </div>
+
+            <div class="service-div">
+                <div class="icon-div"><img class="image" src="monitor.png" /></div>
+                <p class="font font-of-para">Custom Web Components</p>
+            </div>
+
+            <div class="service-div">
+                <div class="icon-div"><img class="image" src="seo.png" /></div>
+                <p class="font font-of-para">SEO</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="Projects">
+        <h1 class="font">Projects</h1>
+        <div class="project-div">
+            <div class="project">
+                <div class="image-div"><img class="image" src="sap.png" /></div>
+                <h5 class="font">SAP Landing Page</h5>
+                <p class="font"><a href="#">Live Demo</a></p>
+            </div>
+
+            <div class="project">
+                <div class="image-div"><img class="image" src="quiz.png" /></div>
+                <h5 class="font">Questionnaire App</h5>
+                <p class="font">
+                    <a href="https://rahim439.github.io/questionnaireApp/" target="_blank">Live Demo</a>
+                </p>
+            </div>
+
+            <div class="project">
+                <div class="image-div"><img class="image" src="ol.png" /></div>
+                <h5 class="font">OLX Clone</h5>
+                <p class="font">
+                    <a href="https://rahim439.github.io/OlxClone/" target="_blank">Live Demo</a>
+                </p>
+            </div>
+
+            <div class="project">
+                <div class="image-div"><img class="image" src="it.PNG" /></div>
+                <h5 class="font">IT Solutions Landing Page</h5>
+                <p class="font"><a href="#">Live Demo</a></p>
+            </div>
+        </div>
+    </section>
+    <section class="contactMe">
+        <h1 class="font" id="cont">Contact Me</h1>
+        <div class="form-div">
+            <div class="div1">
+                <p class="font">Available 24/7</p>
+                <h1 class="font">Get In Touch</h1>
+                <form action="">
+                    <input type="text" placeholder="Enter Name" id="text" />
+                    <input type="email" placeholder="Enter Email" id="email" />
+                    <textarea class="font" name="message" rows="8" cols="10" placeholder="Message"></textarea>
+                </form>
+                <button class="submit font contact-button send">Send Message</button>
+            </div>
+
+            <div class="div2">
+                <div class="right">
+                    <div class="icons">
+                        <img class="image" src="MAP.png" />
+                        <div class="details">
+                            <h5 class="font">Location</h5>
+                            <p class="font">Lahore</p>
+                        </div>
+                    </div>
+
+                    <div class="icons">
+                        <img class="image" src="telephone-call.png" />
+                        <div class="details">
+                            <h5 class="font">Phone Number</h5>
+                            <p class="font">0333-1234567</p>
+                        </div>
+                    </div>
+
+                    <div class="icons">
+                        <img class="image" src="email.png" />
+                        <div class="details">
+                            <h5 class="font">Email</h5>
+                            <p class="font">rahimch943@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-div1">
+            <h5 class="font" id="copy">Copyright 2023 © DevCRUD</h5>
+        </div>
+
+        <div class="footer-div1" id="footer-icons">
+            <div class="social-icons">
+                <a><i class="fa-brands fa-facebook" style="color: #1877f2"></i></a>
+                <a><i class="fa-brands fa-google-plus" style="color: #db4437"></i></a>
+                <a><i class="fa-brands fa-linkedin" style="color: #0a66c2"></i></a>
+                <a><i class="fa-brands fa-github" style="color: #181717"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
