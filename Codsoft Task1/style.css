@@ -1,0 +1,384 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.hero-sec {
+    height: 533px;
+}
+
+.hero-bg {
+    background: linear-gradient(to bottom right, #58b7d4, #1c2dec);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.active-link {
+    color: #65b2bf !important;
+}
+
+.box1 button {
+    background: #1154d2;
+    border-color: #2569e6;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Regular Sf Pro Display", Helvetica, Arial, Lucida, sans-serif;
+    font-size: 18px;
+}
+
+.box1 h2 {
+    font-family: "Bold Sf Pro Display", Helvetica, Arial, Lucida, sans-serif;
+    font-size: 40px;
+}
+
+.box1 h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.box1 p {
+    /* font-family: 'Farsan', cursive; */
+    font-family: 'Montaga', serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.box1 {
+    /* border: 2px solid black; */
+    width: 47%;
+    height: 430px;
+    margin: 15px;
+    display: inline-block;
+    padding: 8px;
+}
+
+.box2 {
+    width: 45%;
+    /* border: 2px solid black; */
+    height: 430px;
+    margin: 15px;
+    float: right;
+    padding: 8px;
+}
+
+.box2 img {
+    width: 100%;
+    height: auto;
+    float: right;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-top: auto;
+}
+
+.btn {
+    margin: 15px;
+    background-color: #AED3E6;
+    padding: 5px;
+}
+
+.left {
+    /* border: 2px solid orangered; */
+    display: inline-block;
+    position: absolute;
+    margin: -25px;
+    left: 30px;
+    top: 10px;
+}
+
+.left img {
+    margin-left: -5px;
+}
+
+#logo {
+    width: 30%;
+    height: auto;
+    margin-top: -12px;
+}
+
+.right span {
+    margin-top: 90px;
+}
+
+.right span,
+i {
+    margin-right: 20px;
+    margin-top: 5px;
+    height: 20px;
+    width: 100px;
+}
+
+.right {
+    position: absolute;
+    top: 0px;
+    width: 23%;
+    right: 30px;
+    margin-top: 15px;
+    /* border: 2px solid green; */
+    margin-right: -21px;
+}
+
+.right i {
+    border: 3px solid black;
+    margin-left: 30px;
+    width: 20px;
+}
+
+.center {
+    /* border: 2px solid darkblue; */
+    display: flex;
+    justify-content: center;
+    background-color: #d8e7f1;
+}
+
+.navbar {
+    /* border: 2px solid darkblue; */
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+}
+
+.navbar li {
+    display: inline-block;
+    border-color: #2569e6;
+    font-size: 22px;
+    font-family: 'Arial';
+}
+
+.navbar li a {
+    color: white;
+    border-color: #2569e6;
+    text-decoration: none;
+    padding: 40px 22px;
+    margin-right: 20px;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+.btn-up {
+    background: #0059ff;
+    border-color: #0059ff;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    border-radius: 6px;
+    font-size: 65%;
+    text-align: center;
+    color: white;
+    height: 45px;
+    display: inline block;
+    margin-right: 10px;
+}
+
+.btn-up a {
+    text-align: center;
+}
+
+.courses {
+    /* border: 3px solid black; */
+    height: 420px;
+    display: flex;
+}
+
+.courses-options {
+    /* border: 2px solid brown; */
+    justify-content: space-evenly;
+    width: 25%;
+    margin: 12px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px 60px;
+    margin-right: 5%;
+    margin-left: 20px;
+    height: 315px;
+    margin-top: 7px;
+    background: linear-gradient(to bottom right, #1c72fb, #1acafb);
+}
+
+#opt-3 {
+    position: relative;
+    top: 30px;
+}
+
+#opt-1 {
+    position: relative;
+    top: 30px;
+}
+
+.courses-images {
+    height: 60px;
+}
+
+.icons {
+    font-family: Lato, sans-serif;
+    font-size: 17.8px;
+    color: #14212D;
+}
+
+.headings {
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color: #0E2B3D;
+    /* border: 2px solid blacsk; */
+}
+
+.clients {
+    /* border: 9px solid indigo; */
+    background-image: url("grey.jpg");
+    background-size: cover;
+    height: 225px;
+    margin-top: -40px;
+}
+
+.clients-icons {
+    height: 115px;
+    width: 170px;
+    margin: 35px;
+    display: inline-block;
+}
+
+.clients-icons img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 8/6;
+}
+
+.background {
+    /* border: 3px solid lawngreen; */
+    background-image: url("curve.jpg");
+    background-size: cover;
+    height: 460px;
+    background-position: center center;
+}
+
+.back {
+    /* border:2px  solid black; */
+    margin: 15px;
+    padding: 15px;
+    width: 40%;
+    display: inline-block;
+}
+
+#back-text {
+    float: right;
+    padding: 50px;
+    color: #212529;
+    font-size: large;
+}
+
+#back-logo img {
+    width: 200px;
+    margin-left: 130px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+#back-logo img p {
+    margin-top: 40px;
+}
+
+#abt {
+    margin-top: 140px;
+    margin: auto auto;
+}
+
+#tagLine {
+    /* border: 2px solid gold; */
+    text-align: center;
+    font-family: monospace;
+    margin-top: -50px;
+}
+
+.footer {
+    /* border:3px solid darkred; */
+    padding: 30px;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: linear-gradient(to bottom right, #58b7d4, #1c2dec);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-content {
+    /* border:2px solid forestgreen; */
+    width: 40%;
+    height: 400px;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    margin-top: -25px;
+}
+
+#f1 {
+    padding-right: 100px;
+}
+
+#f1 p {
+    font-family: 'Fresca', sans-serif;
+    font-size: 40px;
+    line-height: 72px;
+    color: #FFFFFF;
+    /* font-weight:600; */
+    text-align: center;
+}
+
+#f2 {
+    float: right;
+}
+
+#f2 img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.small-text {
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+#small {
+    font-family: 'Fresca', sans-serif;
+    font-weight: 100;
+}
+
+#last {
+    color: white;
+}
