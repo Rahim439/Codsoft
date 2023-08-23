@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="myjs.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="input">
+                <input type="text" id="result">
+            </div>
+            <div class="buttons">
+                <button class="light-grey" onclick="clearResult()">AC</button>
+                <button class="light-grey">+/-</button>
+                <button class="light-grey">%</button>
+                <button class="yellow" onclick="appendOperator('/')">÷</button>
+                <button class="dark-grey" onclick="appendNumber(7)">7</button>
+                <button class="dark-grey" onclick="appendNumber(8)">8</button>
+                <button class="dark-grey" onclick="appendNumber(9)">9</button>
+                <button class="yellow" onclick="appendOperator('*')">x</button>
+                <button class="dark-grey" onclick="appendNumber(4)">4</button>
+                <button class="dark-grey" onclick="appendNumber(5)">5</button>
+                <button class="dark-grey" onclick="appendNumber(6)">6</button>
+                <button class="yellow" onclick="appendOperator('-')">-</button>
+                <button class="dark-grey" onclick="appendNumber(1)">1</button>
+                <button class="dark-grey" onclick="appendNumber(2)">2</button>
+                <button class="dark-grey" onclick="appendNumber(3)">3</button>
+                <button class="yellow" onclick="appendOperator('+')">+</button>
+                <button class="zero dark-grey" onclick="appendNumber(0)">0</button>
+                <button class="dot dark-grey" onclick="appendDecimal('.')">.</button>
+                <button class="yellow" onclick="calculate()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

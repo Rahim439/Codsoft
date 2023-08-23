@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    height:500px;
+    width:500px;
+    /* border: 2px solid darkred; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.calculator
+{
+    height:440px;
+    background-color: black;
+    width:230px;
+    border-radius: 38px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px;
+
+    
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+input
+{
+    text-align: end;
+    width: 97%;
+    height: 100%;
+    font-size: 60px;
+    background-color: black;
+    border-width: 0px;
+    color: #ffffff;
+    /* background-color: white */
+  
+}
+
+
+.input
+{
+    height: 130px;
+    margin-top:10px;
+    margin-left: 8px;
+    /* border: 2px solid rgb(127, 75, 224); */
+}
+
+.buttons
+{
+    /* border: 2px solid rgb(127, 75, 224); */
+    display: flex;
+    justify-content:space-between;
+    height:270px;
+    flex-wrap: wrap;
+    margin-top: -2px;
+    
+}
+
+button{
+    border-radius:50%;
+    height:45px;
+    width:45px;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.zero
+{
+    margin: 10px 10px;
+  border-radius: 20px;
+  width:80px;
+  height:35px;
+  margin: 4px;
+}
+
+.dot
+{
+    margin-left: 9px;
+}
+
+.light-grey
+{
+    background-color: #9F9F9F;
+    border-color: #9F9F9F;
+    font-size: 18px;
+    font-weight:bold;
+
+}
+
+.yellow{
+
+    background-color: #F69906;
+    border-color: #F69906;
+    color: white;
+    font-size: 20px;
+}
+
+.dark-grey
+{
+    background-color: #313131;
+    border-color: #313131;
+    color: white;
+    font-size: 20px;
+}
